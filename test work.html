@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Webim | Сервис онлайн консультирования</title>
+    <meta name="keywords" content="мессенджеры, обращения, обработка">
+    <meta name="description" content="сверивис обработки обращений из разных мессенджеров">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo-menu">
+            <img class="header__logo" src="images\logo_header.svg" alt="Логотип компании">
+            <label class="header__menu-icon" for="label__navigation"></label>
+        </div>
+        <div class="header__title">
+            <div class="header__title-main">Сервис онлайн-консультирования</div>
+            <div class="header__title-discription">чат на сайт + 10 каналов</div>
+        </div>
+        <input type="checkbox" class="header__menu-btn" id="label__navigation">
+        <nav  class="header__navigation">
+            <a class="header__navigation-item" href="#">Установка</a>
+            <a class="header__navigation-item" href="#">Возможности</a>
+            <a class="header__navigation-item" href="#">Стоимость</a>
+            <a class="header__navigation-item" href="#call__registration">Регистрация</a>
+        </nav>
+    </header>
+    <main>
+        <section class="main">
+            <div class="main__left">
+                <div class="main__left-text">Принимайте обращения клиентов из разных каналов в одном сервисе</div>
+                <div class="main__left-button-section">
+                    <a href="#" class="main__left-button"> Начать обрабатывать заявки с Webim</a>
+                </div>
+            </div>
+            <div class="main__right">
+                <img src="images/img_01_x2.png" alt="мессенджеры" class="main__right-img">
+            </div>
+        </section>
+        <section></section>
+        <section></section>
+        <section class="registration">
+            <div class="registration__call" id="call__registration">Регистрация</div>
+            <form action="#" method="post" class="registration__form">
+                <div class="registration__form-input-data">
+                    <input type="text" name="name" class="registration__form-input" placeholder="Имя">
+                    <input type="tel" name="telephone number" class="registration__form-input" placeholder="Телефон">
+                </div>
+                <div class="registration__form-input-data">
+                    <input type="email" name="Email" class="registration__form-input" placeholder="Email">
+                    <input type="password" name="password" class="registration__form-input" placeholder="Пароль">
+                </div>
+                <div class="registration__form-input-data">
+                    <input type="url" name="site" class="registration__form-input registration__url" placeholder="Сайт">
+                </div>
+                <div class="registration__form-input-data checkbox__data">
+                    <input type="checkbox" checked class="registration__checkbox" id="checkbox-label">
+                    <label for="checkbox-label" class="checkmark"></label>
+                    <div class="registration__form-input-checkbox-text">
+                        <label for="checkbox-label" class="checkbox-container">Регистрируясь в системе, я принимаю условия <br>
+                            <a class="checkbox-link" href="#">Лицензионного соглашения</a>,
+                        <a class="checkbox-link" href="#">Политики конфиденциальности</a>, <br>и даю <a class="checkbox-link" href="#">Согласие на обработку персональных данных</a>.</label>
+                    </div>
+                </div>
+                <div class="registration__form-input-data">
+                    <input type="submit" value="ЗАРЕГИСТРИРОВАТЬСЯ" class="registration__form-input registration__submit">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__company-name">
+            © Webim, 2019
+        </div>
+        <div>
+            <a class="footer__security-politic" href="#">Политика конфиденциальности</a>
+        </div>
+    </footer>
+</body>
+</html>
